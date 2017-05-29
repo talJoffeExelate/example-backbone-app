@@ -7,7 +7,7 @@ MovieApp.Collections.Movies = Backbone.Collection.extend({
 
     url: function()
     {
-        return "http://api-public.guidebox.com/v2/search?"+guideboxApiKey+"=&type=movie&field=title&query="+this.title;
+        return "http://api-public.guidebox.com/v2/search?api_key="+guideboxApiKey+"&type=movie&field=title&query="+this.title;
     },
 
     parse: function(response)
