@@ -1,6 +1,6 @@
 MovieApp.Views.Search = Backbone.View.extend({
 
-    template: " <div class='input-group'> \
+    template: "<div id=search-input class='input-group'> \
                     <input type='text' class='form-control' placeholder='Search for...'> \
                     <span class='input-group-btn'> \
                         <button class='btn btn-default' type='button'>Go!</button> \

@@ -2,3 +2,9 @@ h1 {
     text-align: center;
     color: black;
 }
+
+#search-input{
+    left: 5px;
+    width: 20%;
+    padding-bottom: 10px;
+}
